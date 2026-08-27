@@ -4,7 +4,17 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
   <meta name="theme-color" content="#202826">
-  <title>影术家｜电影史研究学术台·公开演示版</title>
+  <title>影术家｜电影史研究学术台</title>
+  <meta name="description" content="面向电影史研究的在线优先、离线可用学术工作台：阅读、史料、研究卡、论文写作与多设备同步。">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="影术家｜电影史研究学术台">
+  <meta property="og:description" content="把阅读、史料、论点与论文写作组织成一条可核查的电影史研究链条。">
+  <meta property="og:url" content="https://wzerx.github.io/Yingshujia-Article/">
+  <meta property="og:image" content="https://wzerx.github.io/Yingshujia-Article/og.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="影术家｜电影史研究学术台">
+  <meta name="twitter:description" content="面向电影史研究的在线优先、离线可用学术工作台。">
+  <meta name="twitter:image" content="https://wzerx.github.io/Yingshujia-Article/og.png">
   <style>
     :root{--ink:#202725;--muted:#6e736f;--paper:#f3efe6;--paper2:#e8e1d4;--card:rgba(255,255,255,.74);--line:rgba(54,55,49,.14);--red:#8e312f;--green:#2d594b;--gold:#a17c43;--shadow:0 14px 42px rgba(45,39,29,.07)}
     *{box-sizing:border-box}html{background:var(--paper)}body{margin:0;color:var(--ink);background:radial-gradient(circle at 84% 0%,rgba(154,126,80,.14),transparent 26%),var(--paper);font-family:"Songti SC","STSong","Noto Serif CJK SC",serif}button,input,select,textarea{font:inherit}button{color:inherit;cursor:pointer}button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible{outline:2px solid var(--red);outline-offset:2px}.hidden{display:none!important}.app{min-height:100vh;display:grid;grid-template-columns:76px 1fr}.rail{position:sticky;top:0;z-index:20;height:100vh;padding:20px 10px;background:#202826;color:#eee9df;display:flex;flex-direction:column;align-items:center;gap:35px}.brand{width:44px;height:44px;border:1px solid rgba(255,255,255,.24);border-radius:50%;display:grid;place-items:center;background:transparent;color:white}.film{display:inline-flex;gap:3px;align-items:center}.film i{width:4px;height:18px;display:block;background:currentColor;border-radius:4px}.film i:nth-child(2){height:26px;background:var(--red)}.rail nav{display:grid;gap:9px;width:100%}.nav{border:0;background:transparent;color:rgba(255,255,255,.58);min-height:55px;border-radius:12px;display:grid;place-items:center;gap:1px}.nav span{font-size:16px}.nav small{font:9px system-ui,sans-serif;display:none}.nav.active,.nav:hover{background:rgba(255,255,255,.11);color:white}.nav.active small{display:block}.avatar{margin-top:auto;border:0;width:42px;height:42px;background:#ebe2d3;color:#26332f;border-radius:50%}.workspace{min-width:0}.topbar{height:82px;border-bottom:1px solid var(--line);display:flex;align-items:center;justify-content:space-between;padding:0 4vw;background:rgba(243,239,230,.88);backdrop-filter:blur(14px);position:sticky;top:0;z-index:15}.wordmark{display:flex;align-items:center;gap:13px;color:var(--green)}.wordmark strong{font-size:22px;letter-spacing:.16em;display:block}.wordmark small{color:var(--muted);font-size:10px;letter-spacing:.15em}.actions{display:flex;align-items:center;gap:9px}.offline{color:var(--green);font:12px system-ui,sans-serif}.offline:before{content:"";display:inline-block;width:7px;height:7px;border-radius:50%;background:#4c826c;margin-right:6px}.btn{border-radius:9px;padding:10px 15px;border:1px solid var(--line);background:rgba(255,255,255,.62)}.btn.primary{background:var(--green);color:white;border-color:var(--green)}.btn.ghost{background:transparent}.btn.full{width:100%}.offline-note{background:#e7dfce;color:#5b5549;padding:9px 4vw;border-bottom:1px solid rgba(90,79,61,.12);font:11px system-ui,sans-serif}.offline-note b{color:var(--red)}.view{width:min(1220px,calc(100% - 7vw));margin:0 auto;padding:43px 0 78px}.heading{margin-bottom:27px}.heading p{margin:0 0 9px;color:var(--red);font:11px system-ui,sans-serif;letter-spacing:.16em}.heading h1{margin:0;font-size:clamp(29px,4vw,46px);font-weight:500}.heading span{display:block;color:var(--muted);margin-top:10px;font-size:14px}.panel,.project,.today,.scene,.metrics{border:1px solid var(--line);border-radius:16px;background:var(--card);box-shadow:var(--shadow)}.dashboard{display:grid;grid-template-columns:1.45fr 1fr;gap:19px}.hello{grid-column:1/-1;margin-bottom:8px}.hello p{margin:0 0 8px;color:var(--red);font:11px system-ui,sans-serif;letter-spacing:.13em}.hello h1{margin:0;font-size:clamp(27px,3vw,41px);font-weight:500}.project{min-height:365px;padding:31px;display:grid;grid-template-columns:1fr 166px;gap:32px;overflow:hidden;position:relative}.project:before{content:"";position:absolute;inset:0 auto 0 0;width:5px;background:var(--red)}.eyebrow{display:flex;gap:10px;align-items:center;color:var(--muted);font:12px system-ui,sans-serif}.eyebrow b{color:var(--red);font-weight:500}.eyebrow i{font-style:normal;border:1px solid var(--line);border-radius:999px;padding:4px 8px}.project h2{font-size:34px;margin:28px 0 7px}.meta{color:var(--muted);font-size:14px}.chapter{margin-top:45px;font:12px system-ui,sans-serif}.chapter small{display:block;color:var(--muted);margin-bottom:7px}.chapter strong{font-size:14px}.track{height:3px;background:#ddd6ca;margin:17px 0 23px}.track i{display:block;height:100%;width:19%;background:var(--red)}.cover{align-self:center;position:relative;transform:rotate(1.3deg)}.cover img{width:100%;aspect-ratio:.69;object-fit:cover;box-shadow:8px 14px 22px rgba(42,32,28,.23);filter:saturate(.83)}.cover span{position:absolute;right:-15px;top:25px;background:var(--red);color:white;padding:6px 8px;font:11px system-ui,sans-serif}.today{padding:25px}.section-title{display:flex;align-items:center;justify-content:space-between;padding-bottom:17px;border-bottom:1px solid var(--line)}.section-title div{display:flex;align-items:center;gap:9px}.section-title h3{margin:0;font-size:18px}.num{color:var(--red);font:11px system-ui,sans-serif}.count{color:var(--muted);font:12px system-ui,sans-serif}.task{min-height:59px;display:grid;grid-template-columns:22px 1fr auto;align-items:center;gap:8px;border-bottom:1px solid var(--line);font:13px system-ui,sans-serif}.task input{accent-color:var(--green)}.task small{color:var(--muted)}.task.done .task-text{text-decoration:line-through;color:#8a8a83}.scene{grid-column:1/-1;padding:25px}.scene-body{display:grid;grid-template-columns:145px 1fr;gap:25px;padding-top:20px}.thumb{height:155px;overflow:hidden;border-radius:8px;position:relative}.thumb img{width:100%;height:100%;object-fit:cover;filter:sepia(.1)}.thumb span{position:absolute;left:8px;bottom:8px;color:white;background:rgba(30,30,27,.72);padding:4px 7px;font:10px system-ui,sans-serif}.claim{align-self:center;max-width:750px}.status{display:inline-block;border-radius:999px;padding:5px 9px;font:11px system-ui,sans-serif}.pending{color:#855c19;background:#f2e5c5}.ready{color:#2f654f;background:#dfece5}.claim h3{font-size:20px;margin:13px 0 8px}.claim p,.card p{color:var(--muted);font-size:14px;line-height:1.75}.metrics{grid-column:1/-1;display:grid;grid-template-columns:repeat(4,1fr);overflow:hidden}.metrics div{padding:20px 25px;border-right:1px solid var(--line);display:flex;gap:9px;align-items:baseline}.metrics div:last-child{border:0}.metrics strong{color:var(--red);font-size:28px}.metrics span{color:var(--muted);font:11px system-ui,sans-serif}
@@ -16,6 +26,8 @@
     @media(max-width:1000px){.reader{grid-template-columns:190px 1fr}.inspector{grid-column:1/-1}.logic-flow{grid-template-columns:repeat(3,1fr)}}
     @media(max-width:760px){.app{grid-template-columns:1fr;padding-bottom:69px}.rail{position:fixed;top:auto;bottom:0;z-index:40;width:100%;height:66px;padding:7px 6px;flex-direction:row}.rail nav{display:flex;justify-content:center;flex:1}.nav{width:16.2%;min-height:50px}.nav small,.nav.active small{display:block}.brand,.avatar{display:none}.topbar{height:68px;padding:0 16px}.wordmark small,.offline,.actions .ghost{display:none}#trashBtn{display:inline-block!important}.wordmark strong{font-size:19px}.offline-note{padding:8px 15px}.view{width:calc(100% - 28px);padding:28px 0 50px}.dashboard{grid-template-columns:1fr}.hello,.scene,.metrics{grid-column:1}.project{grid-template-columns:1fr 96px;min-height:325px;padding:21px;gap:14px}.project h2{font-size:24px}.chapter{margin-top:30px}.scene-body{grid-template-columns:90px 1fr;gap:14px}.thumb{height:132px}.metrics{grid-template-columns:repeat(2,1fr)}.reader{display:flex;flex-direction:column;min-height:0}.tree{display:none}.chapters>p{margin-bottom:7px}.page-buttons{margin-top:10px}.page-stage{min-height:590px}.canvas{min-height:495px}.page-stage footer span{display:none}.logic-flow{grid-template-columns:repeat(2,1fr)}.cards{grid-template-columns:1fr}.planner-grid,.library-grid,.writing-toolbar,.writing{grid-template-columns:1fr}.plan-summary{grid-template-columns:repeat(2,1fr)}.pdf-frame{height:430px}.export{display:block}.export>div{margin-top:12px;flex-wrap:wrap}.actions .btn{padding:8px 10px}.modal{padding:27px 20px}.task,.library-item{grid-template-columns:16px 22px minmax(0,1fr)}.task .item-actions,.library-item .item-actions{grid-column:2/-1;justify-content:flex-start}.outline article>div{padding-right:0;padding-top:35px}.outline article .item-actions{left:0;right:auto}.trash-item{grid-template-columns:1fr}.library-tools{grid-template-columns:1fr}}
     @media(max-width:460px){.project{grid-template-columns:1fr 78px}.cover{align-self:start;margin-top:42px}.scene-body{grid-template-columns:1fr}.thumb{height:115px}.logic-flow{grid-template-columns:1fr}.page-stage{min-height:520px}.canvas{min-height:425px}}
+    .cloud-status{border:1px solid var(--line);background:rgba(255,255,255,.56);border-radius:999px;padding:8px 11px;display:inline-flex;align-items:center;gap:7px;color:var(--muted);font:11px system-ui,sans-serif}.cloud-status:hover{background:white}.cloud-dot{width:8px;height:8px;border-radius:50%;background:#a59d90;box-shadow:0 0 0 3px rgba(165,157,144,.12)}.cloud-status[data-state="synced"]{color:var(--green)}.cloud-status[data-state="synced"] .cloud-dot{background:#3f8a68;box-shadow:0 0 0 3px rgba(63,138,104,.13)}.cloud-status[data-state="syncing"]{color:#855c19}.cloud-status[data-state="syncing"] .cloud-dot{background:#c48a2a;animation:cloudPulse 1s infinite}.cloud-status[data-state="offline"],.cloud-status[data-state="error"]{color:var(--red)}.cloud-status[data-state="offline"] .cloud-dot,.cloud-status[data-state="error"] .cloud-dot{background:var(--red)}@keyframes cloudPulse{50%{opacity:.35;transform:scale(.72)}}.account-btn{max-width:180px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.auth-field{display:block;margin:20px 0 13px}.auth-field span{display:block;color:var(--muted);font:10px system-ui,sans-serif;margin-bottom:7px}.auth-field input{width:100%;height:44px;border:1px solid var(--line);border-radius:9px;background:white;padding:0 12px}.auth-feedback{background:var(--paper);border-radius:9px;padding:11px 12px;margin-top:13px!important;font:11px/1.65 system-ui,sans-serif!important}.account-email{font:14px system-ui,sans-serif!important;color:var(--green)!important;overflow-wrap:anywhere}.sync-summary{display:grid;grid-template-columns:1fr 1fr;gap:9px;margin:18px 0}.sync-summary div{background:var(--paper);padding:14px;border-radius:9px}.sync-summary strong,.sync-summary span{display:block}.sync-summary strong{font-size:22px;color:var(--red)}.sync-summary span{font:10px system-ui,sans-serif;color:var(--muted);margin-top:4px}.auth-modal .btn+.btn{margin-top:8px}.auth-signout{margin-top:12px}.sync-conflict-flag{color:#855c19!important;background:#f2e5c5!important}.cloud-unavailable{color:var(--red)!important}.mobile-account{display:none}
+    @media(max-width:760px){.cloud-status{padding:7px 9px}.cloud-status span:last-child{max-width:76px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.account-btn{display:none}.actions{gap:5px}.actions #importBtn{font-size:0}.actions #importBtn:after{content:"＋";font-size:17px}.auth-modal{max-height:calc(100vh - 32px);overflow:auto}}
   </style>
 </head>
 <body>
@@ -35,14 +47,14 @@
     <section class="workspace">
       <header class="topbar">
         <div class="wordmark"><span class="film"><i></i><i></i><i></i></span><span><strong>影术家</strong><small>电影史研究学术台</small></span></div>
-        <div class="actions"><span class="offline">离线可用</span><button class="btn ghost" id="trashBtn">回收站 <span id="trashCount">0</span></button><button class="btn ghost" id="backupBtn">备份数据</button><button class="btn primary" id="importBtn">＋ 导入材料</button></div>
+        <div class="actions"><button class="cloud-status" id="syncStatusBtn" data-state="local" type="button" aria-label="打开账号与同步"><span class="cloud-dot"></span><span id="syncStatusText">本机模式</span></button><button class="btn ghost account-btn" id="accountBtn" type="button">登录同步</button><button class="btn ghost" id="trashBtn">回收站 <span id="trashCount">0</span></button><button class="btn ghost" id="backupBtn">备份数据</button><button class="btn primary" id="importBtn">＋ 导入材料</button></div>
       </header>
-      <div class="offline-note"><b>公开演示版</b>　程序公开访问，个人任务与笔记仍只保存在当前浏览器；演示站不包含受版权保护的书页扫描件。</div>
+      <div class="offline-note" id="cloudNotice"><b>在线工作台</b>　本机即时保存；登录后自动同步任务、笔记、研究卡、提纲与草稿。PDF和影片本体默认不上传。</div>
 
       <main>
         <section class="view" id="dashboard">
           <div class="dashboard">
-            <header class="hello"><p>LOCAL RESEARCH DESK · 离线研究现场</p><h1>今天继续把材料变成论证。</h1></header>
+            <header class="hello"><p>CONNECTED RESEARCH DESK · 在线研究现场</p><h1>今天继续把材料变成论证。</h1></header>
             <section class="project">
               <div><div class="eyebrow"><b>正在研究</b><i>一本书</i></div><h2>《中国电影史》</h2><p class="meta">陆弘石、舒晓鸣 · 文化艺术出版社 · 1998</p><div class="chapter"><small>当前章节</small><strong>第二章　调焦（1931—1937）</strong></div><div class="track"><i></i></div><button class="btn primary" data-go="reader">继续阅读</button> <button class="btn" data-go="cards">研究地图</button></div>
               <div class="cover"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iMTI2MCIgdmlld0JveD0iMCAwIDkwMCAxMjYwIj48cmVjdCB3aWR0aD0iOTAwIiBoZWlnaHQ9IjEyNjAiIGZpbGw9IiNlOGRmY2YiLz48cmVjdCB4PSI1NSIgeT0iNTUiIHdpZHRoPSI3OTAiIGhlaWdodD0iMTE1MCIgcng9IjE4IiBmaWxsPSIjZjVmMGU3IiBzdHJva2U9IiM4ZTMxMmYiIHN0cm9rZS13aWR0aD0iNSIvPjxwYXRoIGQ9Ik0xMTAgMTc1SDc5ME0xMTAgMTA5MEg3OTAiIHN0cm9rZT0iIzJkNTk0YiIgc3Ryb2tlLXdpZHRoPSI0Ii8+PGNpcmNsZSBjeD0iNDUwIiBjeT0iNDYwIiByPSIxMjUiIGZpbGw9IiMyZDU5NGIiLz48Y2lyY2xlIGN4PSI0NTAiIGN5PSI0NjAiIHI9IjU2IiBmaWxsPSIjZThkZmNmIi8+PHRleHQgeD0iNDUwIiB5PSIyNjAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzZXJpZiIgZm9udC1zaXplPSI3MiIgZmlsbD0iIzIwMjcyNSI+5b2x5pyv5a62PC90ZXh0Pjx0ZXh0IHg9IjQ1MCIgeT0iNjkwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0ic2VyaWYiIGZvbnQtc2l6ZT0iNDIiIGZpbGw9IiM4ZTMxMmYiPueUteW9seWPsueglOeptuWtpuacr+WPsDwvdGV4dD48dGV4dCB4PSI0NTAiIHk9Ijc2NSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9InNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMjgiIGZpbGw9IiM2ZTczNmYiPlBVQkxJQyBERU1PPC90ZXh0Pjx0ZXh0IHg9IjQ1MCIgeT0iMTAxMCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9InNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMjQiIGZpbGw9IiM2ZTczNmYiPueglOeptuadkOaWmeeUseeUqOaIt+WcqOacrOacuuWvvOWFpTwvdGV4dD48L3N2Zz4=" alt="《中国电影史》封面"><span>P.38</span></div>
@@ -132,9 +144,10 @@
     </section>
   </div>
 
-  <div class="modal-bg hidden" id="modal"><section class="modal"><button class="close" id="closeModal">×</button><span class="label">MATERIAL / LOCAL</span><h2>在本机查看材料</h2><p>离线版可以选择图片并立即预览，但不会执行真正的OCR，也不会把文件上传。</p><label class="drop"><input type="file" id="fileInput" accept="image/*,.pdf,.doc,.docx"><span class="film"><i></i><i></i><i></i></span><strong id="fileName">选择一份材料</strong><span>书页照片 · PDF论文 · Word文档</span></label><button class="btn primary full" id="finishImport">完成</button></section></div>
-  <div class="modal-bg hidden" id="trashModal"><section class="modal trash-modal"><button class="close" id="closeTrash">×</button><span class="label">RECYCLE BIN / LOCAL</span><h2>回收站</h2><div class="trash-summary"><span>删除记录先进入这里，恢复不会改动原始文件。</span><button class="delete-btn" id="emptyTrash">清空回收站</button></div><div class="trash-list" id="trashList"></div></section></div>
-  <div class="modal-bg hidden" id="editorModal"><section class="modal"><button class="close" id="closeEditor">×</button><span class="label">ITEM EDITOR / LOCAL</span><h2 id="editorHeading">编辑记录</h2><div class="editor-fields"><label><span id="editorTitleLabel">标题</span><input id="editorTitle"></label><label id="editorDetailRow"><span id="editorDetailLabel">说明</span><textarea id="editorDetail"></textarea></label><label id="editorMetaRow"><span id="editorMetaLabel">出处或分组</span><input id="editorMeta"></label><label id="editorKindRow"><span>类型</span><input id="editorKind"></label><label id="editorStatusRow"><span>核查状态</span><select id="editorStatus"><option value="pending">尚待核查</option><option value="ready">可进入分析</option></select></label></div><button class="btn primary full" id="saveEditor">保存</button></section></div>
+  <div class="modal-bg hidden" id="modal"><section class="modal"><button class="close" id="closeModal">×</button><span class="label">MATERIAL / HYBRID</span><h2>导入研究材料</h2><p>图片、PDF和Word文档先在本机打开；书目信息与研究记录可同步到云端，原文件默认留在本机。</p><label class="drop"><input type="file" id="fileInput" accept="image/*,.pdf,.doc,.docx"><span class="film"><i></i><i></i><i></i></span><strong id="fileName">选择一份材料</strong><span>书页照片 · PDF论文 · Word文档</span></label><button class="btn primary full" id="finishImport">完成</button></section></div>
+  <div class="modal-bg hidden" id="trashModal"><section class="modal trash-modal"><button class="close" id="closeTrash">×</button><span class="label">RECYCLE BIN / SYNCED</span><h2>回收站</h2><div class="trash-summary"><span>删除记录先进入这里，登录后会同步到其他设备。</span><button class="delete-btn" id="emptyTrash">清空回收站</button></div><div class="trash-list" id="trashList"></div></section></div>
+  <div class="modal-bg hidden" id="editorModal"><section class="modal"><button class="close" id="closeEditor">×</button><span class="label">ITEM EDITOR / SYNCED</span><h2 id="editorHeading">编辑记录</h2><div class="editor-fields"><label><span id="editorTitleLabel">标题</span><input id="editorTitle"></label><label id="editorDetailRow"><span id="editorDetailLabel">说明</span><textarea id="editorDetail"></textarea></label><label id="editorMetaRow"><span id="editorMetaLabel">出处或分组</span><input id="editorMeta"></label><label id="editorKindRow"><span>类型</span><input id="editorKind"></label><label id="editorStatusRow"><span>核查状态</span><select id="editorStatus"><option value="pending">尚待核查</option><option value="ready">可进入分析</option></select></label></div><button class="btn primary full" id="saveEditor">保存</button></section></div>
+  <div class="modal-bg hidden" id="authModal"><section class="modal auth-modal"><button class="close" id="closeAuth">×</button><span class="label">ACCOUNT / CLOUD SYNC</span><div id="signedOutPanel"><h2>登录影术家</h2><p>输入邮箱后，我们会发送一次性登录链接。无需设置新的密码。</p><label class="auth-field"><span>邮箱</span><input id="authEmail" type="email" autocomplete="email" placeholder="name@example.com"></label><button class="btn primary full" id="sendMagicLink" type="button">发送登录链接</button><p class="auth-feedback" id="authFeedback">登录后，当前设备上的研究记录会先备份，再与云端合并。</p></div><div class="hidden" id="signedInPanel"><h2>账号与同步</h2><p class="account-email" id="accountEmail"></p><div class="sync-summary"><div><strong id="cloudRevision">—</strong><span>云端版本</span></div><div><strong id="conflictCount">0</strong><span>冲突留档</span></div></div><button class="btn primary full" id="syncNow" type="button">立即同步</button><button class="btn full" id="downloadConflicts" type="button">下载冲突留档</button><button class="delete-btn full auth-signout" id="signOut" type="button">退出登录</button><p class="auth-feedback">退出登录不会删除本机数据；再次登录后可以继续同步。</p></div></section></div>
   <div class="toast hidden" id="toast"></div>
   <script>(()=>{
   const $=(id)=>document.getElementById(id);
@@ -202,7 +215,7 @@
   const generateReadingPlan=(notify=true)=>{const values=collectPlan(),totalPages=Number.parseInt(values.pages,10),start=new Date(`${values.start}T00:00:00`),end=new Date(`${values.end}T00:00:00`);if(!values.book.trim()||!Number.isFinite(totalPages)||totalPages<1||Number.isNaN(start.getTime())||Number.isNaN(end.getTime())){toast("请完整填写书名、页数和阅读日期");return false}if(end<start){toast("完成日期不能早于开始日期");return false}const calendarDays=Math.floor((end-start)/86400000)+1,dayTypes=Array.from({length:calendarDays},(_,index)=>({type:(index+1)%7===0?"rest":"read"})),plannedBuffer=Math.min(Math.max(calendarDays>1?1:0,Math.ceil(calendarDays*.1)),Math.max(0,dayTypes.filter(day=>day.type==="read").length-1));let remainingBuffer=plannedBuffer;for(let index=dayTypes.length-1;index>=0&&remainingBuffer>0;index--)if(dayTypes[index].type==="read"){dayTypes[index].type="buffer";remainingBuffer--}const readingDays=Math.max(1,dayTypes.filter(day=>day.type==="read").length),restDays=dayTypes.filter(day=>day.type==="rest").length,bufferDays=dayTypes.filter(day=>day.type==="buffer").length,pagesPerDay=Math.ceil(totalPages/readingDays),weekCount=Math.ceil(calendarDays/7);let pageCursor=1;const weekRows=[];for(let week=0;week<weekCount;week++){const first=week*7,last=Math.min(calendarDays-1,first+6),slice=dayTypes.slice(first,last+1),reads=slice.filter(day=>day.type==="read").length,buffers=slice.filter(day=>day.type==="buffer").length,rests=slice.filter(day=>day.type==="rest").length,weekStart=new Date(start),weekEnd=new Date(start);weekStart.setDate(start.getDate()+first);weekEnd.setDate(start.getDate()+last);const from=pageCursor,to=reads?Math.min(totalPages,pageCursor+reads*pagesPerDay-1):pageCursor-1;if(reads)pageCursor=to+1;weekRows.push(`<tr><td>第${week+1}周</td><td>${shortDate(weekStart)}—${shortDate(weekEnd)}</td><td>${reads&&from<=totalPages?`P.${from}—${to}`:"复盘与调整"}</td><td>阅读${reads}天${buffers?` · 缓冲${buffers}天`:""}${rests?` · 休息${rests}天`:""}</td></tr>`)}const chapters=parseToc(values.toc,totalPages),weights={"精读":1.8,"通读":1,"略读":.55},totalUnits=chapters.reduce((sum,row)=>sum+(row.end-row.start+1)*weights[row.intensity],0),chapterRows=chapters.map(row=>{const pages=row.end-row.start+1,share=totalUnits?Math.round(pages*weights[row.intensity]/totalUnits*100):0,style=row.intensity==="精读"?"deep":row.intensity==="略读"?"scan":"";return`<tr><td>${escapeHtml(row.title)}</td><td>P.${row.start}—${row.end}</td><td><span class="intensity ${style}">${row.intensity}</span></td><td>${share}%</td></tr>`}).join("");$("planOutput").innerHTML=`<div class="label">本地基础计划</div><h2>${escapeHtml(values.book)}</h2><p class="meta">${escapeHtml(values.edition||"版本信息尚待补充")} · ${escapeHtml(values.goal)} · 每日${escapeHtml(values.minutes)}分钟</p><div class="plan-summary"><div><strong>${calendarDays}</strong><span>日历周期</span></div><div><strong>${readingDays}</strong><span>实际阅读日</span></div><div><strong>${pagesPerDay}</strong><span>平均页数／阅读日</span></div><div><strong>${bufferDays+restDays}</strong><span>缓冲与休息日</span></div></div><h3>周期安排</h3><table class="plan-table"><thead><tr><th>周期</th><th>日期</th><th>页码任务</th><th>节奏</th></tr></thead><tbody>${weekRows.join("")}</tbody></table><h3>章节详略与精力分配</h3>${chapters.length?`<table class="plan-table"><thead><tr><th>章节</th><th>页码</th><th>方式</th><th>建议精力</th></tr></thead><tbody>${chapterRows}</tbody></table><p class="form-help">精力比例是阅读成本估算，不是对章节价值的最终判断。</p>`:`<p class="warning"><b>目录待确认：</b>目前只能生成页码周期，不能可靠判断章节详略。</p>`}<p class="privacy-note"><b>调整规则：</b>每完成3个阅读日记录实际页数；若连续两次低于计划20%，把未完成页数移入缓冲日并重新生成。</p>`;localStorage.setItem("ysj-reading-plan",JSON.stringify(values));if(notify)toast("阅读计划已生成并保存在本机");return true};
   $("generatePlan").onclick=()=>generateReadingPlan();
   $("assistantRequest").onclick=()=>{const values=collectPlan();if(!values.book.trim()){toast("请先填写书名");return}const request=`# 影术家｜阅读计划核查请求\n\n## 书目信息\n- 书名：${values.book}\n- 作者／版本线索：${values.edition||"未提供"}\n- 用户掌握的总页数：${values.pages||"未提供"}\n- 阅读周期：${values.start||"未提供"} 至 ${values.end||"未提供"}\n- 每日可用时间：${values.minutes}分钟\n- 阅读目标：${values.goal}\n\n## 用户提供的目录或初步拆解\n${values.toc||"未提供目录"}\n\n## 请完成\n1. 联网检索并锁定确切版本，核对作者、ISBN、出版社、出版年份、总页数与目录，并给出可靠来源。\n2. 同名书、不同版次或目录冲突必须分别列出，无法核实的信息标注“尚待核查”。\n3. 生成按周和按日计划，保留复盘日与机动日。\n4. 逐章标注精读、通读或略读，并说明判断依据。\n5. 为精读单元配置“研究问题—概念—史料—论点”笔记产出。\n`;downloadFile("影术家_阅读计划核查请求.md",request);navigator.clipboard?.writeText(request).catch(()=>{});toast("请求文件已导出")};
-  $("onlinePlan").onclick=()=>toast("离线版不直接联网：请先导出请求文件，再上传给研究助手核查");
+  $("onlinePlan").onclick=()=>toast("账号与云端同步已接通；联网检索将在模型接口配置后启用");
   $("clearPlan").onclick=()=>{const stored=localStorage.getItem("ysj-reading-plan");if(!stored&&!$("planOutput").querySelector("table")){toast("当前没有可删除的阅读计划");return}const values=collectPlan();localStorage.removeItem("ysj-reading-plan");$("planOutput").innerHTML=`<div class="plan-placeholder"><strong>计划已清空</strong><span>表单仍然保留，可修改后重新生成。</span></div>`;sendToTrash("plan",`《${values.book}》阅读计划`,{values})};
 
   const normalizePdf=(item,index)=>({id:item.id||uid(`pdf${index}`),key:item.key||`${item.name}-${item.size}-${item.lastModified||0}`,name:item.name||item.title||"未命名PDF",title:item.title||item.name||"未命名PDF",size:item.size||"未知大小",lastModified:item.lastModified||0,added:item.added||localDate(new Date()),group:item.group||"未分类",status:item.status||"active",info:item.info||""});
@@ -235,13 +248,152 @@
   const renderOutline=()=>{const list=$("outlineList");list.innerHTML=outlineData.map((item,index)=>`<article draggable="true" data-item-id="${item.id}"><span>${String(index+1).padStart(2,"0")}</span><div><div class="item-actions"><button class="compact-btn" data-outline-up="${item.id}">↑</button><button class="compact-btn" data-outline-down="${item.id}">↓</button><button class="compact-btn" data-edit-outline="${item.id}">编辑</button><button class="delete-btn" data-delete-outline="${item.id}">删除</button></div><h3>${escapeHtml(item.title)}</h3><p>${escapeHtml(item.detail)}</p></div></article>`).join("");list.querySelectorAll("[data-edit-outline]").forEach(button=>button.onclick=()=>{const item=outlineData.find(node=>node.id===button.dataset.editOutline);openEditor({heading:"编辑提纲节点",title:item.title,detail:item.detail,meta:false,onSave:values=>{item.title=values.title;item.detail=values.detail;saveOutline();renderOutline()}})});list.querySelectorAll("[data-delete-outline]").forEach(button=>button.onclick=()=>{const index=outlineData.findIndex(item=>item.id===button.dataset.deleteOutline),item=outlineData.splice(index,1)[0];saveOutline();renderOutline();sendToTrash("outlines",item.title,{entries:[{item,index}]})});list.querySelectorAll("[data-outline-up]").forEach(button=>button.onclick=()=>moveById(outlineData,button.dataset.outlineUp,-1,saveOutline,renderOutline));list.querySelectorAll("[data-outline-down]").forEach(button=>button.onclick=()=>moveById(outlineData,button.dataset.outlineDown,1,saveOutline,renderOutline));bindDrag(list,"[data-item-id]",(from,to)=>reorderById(outlineData,from,to,saveOutline,renderOutline))};
   $("addOutline").onclick=()=>openEditor({heading:"新增提纲节点",title:"",detail:"",meta:false,onSave:values=>{outlineData.push({id:uid("outline"),title:values.title,detail:values.detail});saveOutline();renderOutline();toast("提纲节点已新增")}});saveOutline();
 
-  const modal=$("modal");$("importBtn").onclick=()=>modal.classList.remove("hidden");$("closeModal").onclick=()=>modal.classList.add("hidden");$("finishImport").onclick=()=>{modal.classList.add("hidden");toast("材料只在本机选取；正式OCR将在联网版接通")};$("fileInput").onchange=event=>$("fileName").textContent=event.target.files[0]?.name||"选择一份材料";
+  const modal=$("modal");$("importBtn").onclick=()=>modal.classList.remove("hidden");$("closeModal").onclick=()=>modal.classList.add("hidden");$("finishImport").onclick=()=>{modal.classList.add("hidden");toast("材料已在本机登记；研究记录将进入同步队列")};$("fileInput").onchange=event=>$("fileName").textContent=event.target.files[0]?.name||"选择一份材料";
   const title=$("paperTitle"),draft=$("draft"),journal=$("journal");title.value=localStorage.getItem("ysj-paper-title")||title.value;draft.value=localStorage.getItem("ysj-draft")||"";journal.value=localStorage.getItem("ysj-journal")||journal.value;
-  const saveDraft=()=>{localStorage.setItem("ysj-paper-title",title.value);localStorage.setItem("ysj-draft",draft.value);localStorage.setItem("ysj-journal",journal.value);$("outlineTitle").textContent=title.value};title.oninput=saveDraft;draft.oninput=saveDraft;journal.onchange=saveDraft;$("saveBtn").onclick=()=>{saveDraft();toast("草稿已保存在当前浏览器")};
+  const saveDraft=()=>{localStorage.setItem("ysj-paper-title",title.value);localStorage.setItem("ysj-draft",draft.value);localStorage.setItem("ysj-journal",journal.value);$("outlineTitle").textContent=title.value};title.oninput=saveDraft;draft.oninput=saveDraft;journal.onchange=saveDraft;$("saveBtn").onclick=()=>{saveDraft();toast("草稿已保存，并进入云端同步队列")};
   $("exportBtn").onclick=()=>{saveDraft();const outlineHtml=outlineData.map(item=>`<h2>${escapeHtml(item.title)}</h2><p>${escapeHtml(item.detail)}</p>`).join(""),draftHtml=escapeHtml(draft.value||"（尚未填写）").replace(/\n/g,"</p><p>"),body=`<html><head><meta charset="utf-8"><style>body{font-family:宋体;line-height:1.8}h1{text-align:center}h2{margin-top:24px}</style></head><body><h1>${escapeHtml(title.value)}</h1><p style="text-align:center">目标刊物：${escapeHtml(journal.value)}</p>${outlineHtml}<h2>当前草稿</h2><p>${draftHtml}</p></body></html>`;downloadFile("影术家_论文草稿.doc",`\ufeff${body}`,"application/msword");toast("已导出可由WPS打开的文稿")};
-  $("backupBtn").onclick=()=>{const data={version:4,exportedAt:new Date().toISOString(),tasks,pdfLibrary,cards:cardsData,outline:outlineData,trash,notes:{33:localStorage.getItem("ysj-note-33")||"",38:localStorage.getItem("ysj-note-38")||""},readingPlan:collectPlan(),paper:{title:title.value,journal:journal.value,draft:draft.value}};downloadFile("影术家_本机数据备份.json",JSON.stringify(data,null,2),"application/json")};
+  $("backupBtn").onclick=()=>{const data={version:5,mode:"online-first",exportedAt:new Date().toISOString(),tasks,pdfLibrary,cards:cardsData,outline:outlineData,trash,notes:{33:localStorage.getItem("ysj-note-33")||"",38:localStorage.getItem("ysj-note-38")||""},readingPlan:collectPlan(),paper:{title:title.value,journal:journal.value,draft:draft.value}};downloadFile("影术家_研究数据备份.json",JSON.stringify(data,null,2),"application/json")};
 
   renderTasks();renderTab();renderLibrary();renderCards();renderOutline();renderTrash();if(savedPlan)generateReadingPlan(false);go(localStorage.getItem("ysj-offline-view")||"dashboard");
+})();
+</script>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script>
+(()=>{
+  "use strict";
+  const CLOUD_URL="https://fdltlycylqyhckvluxmu.supabase.co";
+  const CLOUD_KEY="sb_publishable_sLqq2ABy1dO8xqKvR5-y2g_DFB05-FV";
+  const $=id=>document.getElementById(id);
+  const syncStatusBtn=$("syncStatusBtn"),syncStatusText=$("syncStatusText"),accountBtn=$("accountBtn"),authModal=$("authModal"),signedOutPanel=$("signedOutPanel"),signedInPanel=$("signedInPanel"),authFeedback=$("authFeedback"),cloudNotice=$("cloudNotice");
+  const META_KEY="ysj-sync-meta",BASE_KEY="ysj-sync-base",CONFLICT_KEY="ysj-sync-conflicts",DEVICE_KEY="ysj-cloud-device",PRELOGIN_BACKUP_KEY="ysj-cloud-prelogin-backup";
+  const excludedKeys=new Set([META_KEY,BASE_KEY,CONFLICT_KEY,DEVICE_KEY,PRELOGIN_BACKUP_KEY,"ysj-offline-view"]);
+  let client=null,session=null,busy=false,reloadQueued=false;
+
+  const now=()=>new Date().toISOString();
+  const safeParse=(value,fallback)=>{try{const parsed=JSON.parse(value);return parsed===null?fallback:parsed}catch{return fallback}};
+  const getDeviceId=()=>{let id=localStorage.getItem(DEVICE_KEY);if(!id){id=`device-${Date.now().toString(36)}-${Math.random().toString(36).slice(2,10)}`;localStorage.setItem(DEVICE_KEY,id)}return id};
+  const managedKeys=()=>Array.from({length:localStorage.length},(_,index)=>localStorage.key(index)).filter(key=>key&&key.startsWith("ysj-")&&!excludedKeys.has(key)).sort();
+  const collectPayload=()=>({format:1,values:Object.fromEntries(managedKeys().map(key=>[key,localStorage.getItem(key)]))});
+  const payloadHash=payload=>JSON.stringify(payload);
+  const getMeta=()=>safeParse(localStorage.getItem(META_KEY),{userId:"",revision:0,hash:"",lastSyncedAt:""});
+  const getBase=()=>safeParse(localStorage.getItem(BASE_KEY),{format:1,values:{}});
+  const saveMeta=(userId,row,payload)=>{localStorage.setItem(META_KEY,JSON.stringify({userId,revision:Number(row.revision||0),hash:payloadHash(payload),lastSyncedAt:row.updated_at||now()}));localStorage.setItem(BASE_KEY,JSON.stringify(payload));$("cloudRevision").textContent=String(row.revision||0)};
+  const setStatus=(state,text)=>{syncStatusBtn.dataset.state=state;syncStatusText.textContent=text};
+  const cloudToast=text=>{const node=$("toast"),message=document.createElement("span");message.textContent=text;node.replaceChildren(message);node.classList.remove("hidden");clearTimeout(window.__ysjCloudToast);window.__ysjCloudToast=setTimeout(()=>node.classList.add("hidden"),3600)};
+  const queueReload=()=>{if(reloadQueued)return;reloadQueued=true;setTimeout(()=>location.reload(),450)};
+  const applyPayload=payload=>{const values=payload?.values||{};managedKeys().forEach(key=>{if(!(key in values))localStorage.removeItem(key)});Object.entries(values).forEach(([key,value])=>{if(key.startsWith("ysj-")&&!excludedKeys.has(key)&&typeof value==="string")localStorage.setItem(key,value)})};
+  const downloadJson=(name,data)=>{const link=document.createElement("a");link.href=URL.createObjectURL(new Blob([JSON.stringify(data,null,2)],{type:"application/json"}));link.download=name;link.click();setTimeout(()=>URL.revokeObjectURL(link.href),1000)};
+
+  const mergeObject=(base={},remote={},local={},path,conflicts)=>{
+    const result={};
+    new Set([...Object.keys(base||{}),...Object.keys(remote||{}),...Object.keys(local||{})]).forEach(field=>{
+      const b=base?.[field],r=remote?.[field],l=local?.[field];
+      if(JSON.stringify(l)===JSON.stringify(b))result[field]=r;
+      else if(JSON.stringify(r)===JSON.stringify(b)||JSON.stringify(l)===JSON.stringify(r))result[field]=l;
+      else{result[field]=l;conflicts.push({path:`${path}.${field}`,local:l,remote:r})}
+    });
+    return result;
+  };
+  const mergeArray=(base=[],remote=[],local=[],path,conflicts)=>{
+    if(![...base,...remote,...local].every(item=>item&&typeof item==="object"&&!Array.isArray(item)&&item.id)){
+      conflicts.push({path,local,remote});return local;
+    }
+    const baseMap=new Map(base.map(item=>[item.id,item])),remoteMap=new Map(remote.map(item=>[item.id,item])),localMap=new Map(local.map(item=>[item.id,item]));
+    const order=[...local.map(item=>item.id),...remote.map(item=>item.id).filter(id=>!localMap.has(id))];
+    return order.map(id=>{
+      const b=baseMap.get(id),r=remoteMap.get(id),l=localMap.get(id);
+      if(l===undefined)return r;if(r===undefined)return l;
+      if(JSON.stringify(l)===JSON.stringify(b))return r;
+      if(JSON.stringify(r)===JSON.stringify(b)||JSON.stringify(l)===JSON.stringify(r))return l;
+      return mergeObject(b||{},r,l,`${path}[${id}]`,conflicts);
+    }).filter(Boolean);
+  };
+  const parseJson=value=>{try{return{ok:true,value:JSON.parse(value)}}catch{return{ok:false,value}}};
+  const mergeStoredValue=(base,remote,local,key,conflicts)=>{
+    if(local===base)return remote;if(remote===base||local===remote)return local;
+    const b=parseJson(base),r=parseJson(remote),l=parseJson(local);
+    if(b.ok&&r.ok&&l.ok){
+      if(Array.isArray(r.value)&&Array.isArray(l.value))return JSON.stringify(mergeArray(Array.isArray(b.value)?b.value:[],r.value,l.value,key,conflicts));
+      if(r.value&&l.value&&typeof r.value==="object"&&typeof l.value==="object")return JSON.stringify(mergeObject(b.value||{},r.value,l.value,key,conflicts));
+    }
+    conflicts.push({path:key,local,remote});return local;
+  };
+  const mergePayloads=(base,remote,local)=>{
+    const conflicts=[],values={},baseValues=base?.values||{},remoteValues=remote?.values||{},localValues=local?.values||{};
+    new Set([...Object.keys(baseValues),...Object.keys(remoteValues),...Object.keys(localValues)]).forEach(key=>{const merged=mergeStoredValue(baseValues[key],remoteValues[key],localValues[key],key,conflicts);if(merged!==undefined&&merged!==null)values[key]=merged});
+    return{payload:{format:1,values},conflicts};
+  };
+  const storeConflicts=async(conflicts,localPayload,remotePayload)=>{
+    if(!conflicts.length)return;
+    const entries=safeParse(localStorage.getItem(CONFLICT_KEY),[]);entries.unshift({id:`conflict-${Date.now()}`,createdAt:now(),count:conflicts.length,conflicts,localPayload,remotePayload});localStorage.setItem(CONFLICT_KEY,JSON.stringify(entries.slice(0,20)));renderConflictCount();
+    if(client&&session){await client.from("research_conflicts").insert({user_id:session.user.id,device_id:getDeviceId(),details:{count:conflicts.length,conflicts},resolved:false}).then(()=>{}).catch(()=>{})}
+  };
+  const renderConflictCount=()=>{const count=safeParse(localStorage.getItem(CONFLICT_KEY),[]).reduce((sum,item)=>sum+(item.count||1),0);$("conflictCount").textContent=String(count);syncStatusBtn.classList.toggle("sync-conflict-flag",count>0)};
+  const isSetupError=error=>["42P01","PGRST205","PGRST204"].includes(error?.code)||/research_state|schema cache|relation/i.test(error?.message||"");
+
+  const fetchRemote=async()=>{
+    const{data,error}=await client.from("research_state").select("payload,revision,updated_at").eq("user_id",session.user.id).maybeSingle();
+    if(error)throw error;return data;
+  };
+  const pushRemote=async(payload,revision)=>{
+    const row={user_id:session.user.id,payload,revision:Number(revision||0)+1,updated_at:now(),device_id:getDeviceId()};
+    const{data,error}=await client.from("research_state").upsert(row,{onConflict:"user_id"}).select("payload,revision,updated_at").single();
+    if(error)throw error;return data;
+  };
+  const syncCloud=async(reason="manual")=>{
+    if(!session||busy)return;
+    if(!navigator.onLine){setStatus("offline","离线待同步");return}
+    busy=true;setStatus("syncing","正在同步");
+    try{
+      const localPayload=collectPayload(),localHash=payloadHash(localPayload),meta=getMeta(),remote=await fetchRemote();
+      if(!remote){const row=await pushRemote(localPayload,0);saveMeta(session.user.id,row,localPayload);setStatus("synced","已同步");return}
+      if(meta.userId!==session.user.id){
+        localStorage.setItem(PRELOGIN_BACKUP_KEY,JSON.stringify({createdAt:now(),payload:localPayload}));applyPayload(remote.payload);saveMeta(session.user.id,remote,remote.payload);setStatus("synced","已接入云端");cloudToast("已载入该账号的云端研究数据，本机旧数据已留存备份");queueReload();return;
+      }
+      const remoteIsNewer=Number(remote.revision||0)>Number(meta.revision||0),localDirty=localHash!==meta.hash;
+      if(remoteIsNewer&&localDirty){
+        const merged=mergePayloads(getBase(),remote.payload,localPayload);await storeConflicts(merged.conflicts,localPayload,remote.payload);const row=await pushRemote(merged.payload,remote.revision);applyPayload(merged.payload);saveMeta(session.user.id,row,merged.payload);setStatus("synced",merged.conflicts.length?"已合并·需复核":"已合并");cloudToast(merged.conflicts.length?`已自动合并，并保留${merged.conflicts.length}处冲突供复核`:"已自动合并两台设备的修改");if(payloadHash(merged.payload)!==localHash)queueReload();return;
+      }
+      if(remoteIsNewer){applyPayload(remote.payload);saveMeta(session.user.id,remote,remote.payload);setStatus("synced","已更新");if(payloadHash(remote.payload)!==localHash)queueReload();return}
+      if(localDirty||reason==="manual"){const row=await pushRemote(localPayload,remote.revision);saveMeta(session.user.id,row,localPayload);setStatus("synced","已同步");if(reason==="manual")cloudToast("研究数据已同步到云端");return}
+      setStatus("synced","已同步");$("cloudRevision").textContent=String(remote.revision||0);
+    }catch(error){
+      console.error("Yingshujia cloud sync",error);
+      if(isSetupError(error)){setStatus("error","待初始化");authFeedback.textContent="数据库尚未初始化。请先在 Supabase 运行影术家初始化脚本。";cloudNotice.innerHTML="<b>云端待初始化</b>　登录功能可用，但数据库表尚未建立；完成一次初始化后即可同步。"}
+      else{setStatus(navigator.onLine?"error":"offline",navigator.onLine?"同步异常":"离线待同步");if(reason==="manual")cloudToast("本次同步未完成，本机数据没有丢失")}
+    }finally{busy=false}
+  };
+
+  const updateAuthUi=()=>{
+    const signedIn=Boolean(session?.user);signedOutPanel.classList.toggle("hidden",signedIn);signedInPanel.classList.toggle("hidden",!signedIn);
+    accountBtn.textContent=signedIn?(session.user.email||"已登录"):"登录同步";$("accountEmail").textContent=signedIn?session.user.email:"";
+    if(!signedIn)setStatus(navigator.onLine?"local":"offline",navigator.onLine?"本机模式":"离线模式");renderConflictCount();
+  };
+  const openAuth=()=>{updateAuthUi();authModal.classList.remove("hidden");setTimeout(()=>{if(!session)$("authEmail").focus()},30)};
+  $("closeAuth").onclick=()=>authModal.classList.add("hidden");syncStatusBtn.onclick=openAuth;accountBtn.onclick=openAuth;document.querySelector(".avatar").onclick=openAuth;
+  $("sendMagicLink").onclick=async()=>{
+    const email=$("authEmail").value.trim();if(!/^\S+@\S+\.\S+$/.test(email)){authFeedback.textContent="请填写可以正常收信的邮箱。";return}
+    $("sendMagicLink").disabled=true;authFeedback.textContent="正在发送登录邮件……";
+    try{const redirectTo=`${location.origin}${location.pathname}`;const{error}=await client.auth.signInWithOtp({email,options:{emailRedirectTo:redirectTo}});if(error)throw error;authFeedback.textContent="登录链接已发送。请打开邮箱中的最新邮件，点击链接后会自动回到影术家。"}
+    catch(error){authFeedback.textContent=`发送失败：${error.message||"请稍后重试"}`}
+    finally{$("sendMagicLink").disabled=false}
+  };
+  $("syncNow").onclick=()=>syncCloud("manual");
+  $("signOut").onclick=async()=>{await client.auth.signOut();session=null;localStorage.removeItem(META_KEY);localStorage.removeItem(BASE_KEY);authModal.classList.add("hidden");updateAuthUi();cloudToast("已退出登录，本机研究数据仍然保留")};
+  $("downloadConflicts").onclick=()=>{const conflicts=safeParse(localStorage.getItem(CONFLICT_KEY),[]);if(!conflicts.length){cloudToast("当前没有冲突留档");return}downloadJson("影术家_同步冲突留档.json",conflicts)};
+
+  const boot=async()=>{
+    renderConflictCount();
+    if(!window.supabase?.createClient){setStatus("error","云端组件未加载");authFeedback.textContent="云端组件加载失败，本机功能仍可使用。请检查网络后刷新。";return}
+    client=window.supabase.createClient(CLOUD_URL,CLOUD_KEY,{auth:{persistSession:true,autoRefreshToken:true,detectSessionInUrl:true}});
+    const{data}=await client.auth.getSession();session=data.session;updateAuthUi();
+    client.auth.onAuthStateChange((event,newSession)=>{session=newSession;updateAuthUi();if(newSession)setTimeout(()=>syncCloud(event==="SIGNED_IN"?"signin":"auth"),0)});
+    if(session)syncCloud("startup");
+    setInterval(()=>{if(session&&!busy){const meta=getMeta();if(payloadHash(collectPayload())!==meta.hash)syncCloud("local-change")}},5000);
+    setInterval(()=>{if(session&&!busy)syncCloud("poll")},30000);
+  };
+  window.addEventListener("online",()=>{if(session)syncCloud("online");else setStatus("local","本机模式")});window.addEventListener("offline",()=>setStatus("offline","离线待同步"));
+  boot().catch(error=>{console.error("Yingshujia cloud boot",error);setStatus("error","云端连接失败")});
 })();
 </script>
 </body>
